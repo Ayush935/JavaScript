@@ -70,4 +70,4 @@ console.log(typeof bigNumber)
 myFunction();
 
 console.log(myObj)
-console.log(heroes)
+console.log(heroes) 
