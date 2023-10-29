@@ -20,3 +20,22 @@ let z=5
 let x= String(z)
 console.log(x)
 console.log(typeof x)
+
+
+// ******************************* Operations
+
+let value = 3 
+let negVale = -value
+console.log(negVale)
+
+// concatenate
+// operations + * / % 
+
+console.log("1"+"2")
+console.log("a"+"b")
+console.log("a"+"1"+2+3)
+console.log(2+3+"c")
+
+let count = 5
+count++  // prefix operation ++count  postfix operation count++
+console.log(count)
