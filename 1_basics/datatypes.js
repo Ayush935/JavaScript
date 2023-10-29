@@ -50,6 +50,17 @@ let myObj = {
     age: 18,
 }
 
+//  all the primitive datatypes are stored in stack memory and all non-primitive datatype are stored in heap memory 
+// (reference  myObj in satck  ----------->   refrece in heap )
+
+let myObj1 = myObj
+
+myObj1.age = 20
+
+console.log(myObj1.age)
+console.log(myObj.age)
+
+
 const myFunction = function(){
      console.log("Hello World");
 }
